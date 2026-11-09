@@ -1,0 +1,11 @@
+{
+  "name": "redbox-review-skill",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "一图一个问题的真实网页红框截图与说明技能",
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "scripts": { "test": "node --test tests/capture-redbox.test.mjs", "demo": "node examples/demo.mjs" },
+  "devDependencies": { "playwright": "1.61.1" }
+}

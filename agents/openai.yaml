@@ -1,0 +1,4 @@
+interface:
+  display_name: "红框逐项说明"
+  short_description: "一图一个问题，截图圈出修改位置并说明原行为、判断、目标及已有修复覆盖范围"
+  default_prompt: "使用 $redbox-review 截图圈出问题，每张图只说明一个改动，讲清原口径、证据判断、目标口径和已有 MR 覆盖范围。"
